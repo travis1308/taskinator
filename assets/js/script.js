@@ -28,10 +28,9 @@ var taskFormHandler = function(){
       var taskDataObj = {
             name: taskNameInput,
             type: taskTypeInput
-      }
+      };
+      createTaskEl(taskDataObj);
    };
-   
-   createTaskEl(taskDataObj);
 };
 
 var completeEditTask = function(taskName, taskType, taskId) {
